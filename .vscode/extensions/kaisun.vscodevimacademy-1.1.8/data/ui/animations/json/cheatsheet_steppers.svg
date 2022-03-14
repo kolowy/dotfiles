@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+    <symbol id="stepperDiagonal_dots" overflow="visible">
+        <path fill="rgb(235,122,17)" id="stepperDiagonal_orange_dots_Path1" d=" M-246.8000030517578,31.250999450683594 C-246.8000030517578,33.018001556396484 -248.23300170898438,34.45100021362305 -250,34.45100021362305 C-251.76699829101562,34.45100021362305 -253.1999969482422,33.018001556396484 -253.1999969482422,31.250999450683594 C-253.1999969482422,29.483999252319336 -251.76699829101562,28.051000595092773 -250,28.051000595092773 C-248.23300170898438,28.051000595092773 -246.8000030517578,29.483999252319336 -246.8000030517578,31.250999450683594z" stroke-dasharray="20.108596801757812"></path>
+        <use href="#stepperDiagonal_orange_dots_Path1" transform="translate(-81,0)" />
+        <use href="#stepperDiagonal_orange_dots_Path1" transform="translate(-162,0)" />
+        <use href="#stepperDiagonal_orange_dots_Path1" transform="translate(-243,0)" />
+        <use href="#stepperDiagonal_orange_dots_Path1" transform="translate(-324,0)" />
+        <use href="#stepperDiagonal_orange_dots_Path1" transform="translate(-405,0)" />
+        <animate href="#stepperDiagonal_orange_dots_Path1" attributeName="opacity" dur="3.042" values="0; 0; 1; 1" keyTimes="0; 0.425; 0.767; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.766 0 0.833 0.833; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+    </symbol>
+
+    <symbol id="stepperDiagonal_grid" overflow="visible">
+        <path stroke-linecap="butt" stroke-linejoin="miter" opacity="1" stroke-miterlimit="10" stroke="rgb(235,123,18)" stroke-opacity="1" stroke-width="1" id="stepperDiagonal_orange_grid_Path1" d=" M-251.25,21 C-251.25,21 -251.25,26.625 -251.25,26.625 C-251.25,26.625 -329.4169921875,26.625 -329.4169921875,26.625 C-329.4169921875,26.625 -329.4169921875,21 -329.4169921875,21" stroke-dasharray="89.4169921875"></path>
+        <use href="#stepperDiagonal_orange_grid_Path1" transform="translate(-81,0)" />
+        <use href="#stepperDiagonal_orange_grid_Path1" transform="translate(-162,0)" />
+        <use href="#stepperDiagonal_orange_grid_Path1" transform="translate(-243,0)" />
+        <use href="#stepperDiagonal_orange_grid_Path1" transform="translate(-324,0)" />
+        <use href="#stepperDiagonal_orange_grid_Path1" transform="translate(-405,0)" />
+        <animate href="#stepperDiagonal_orange_grid_Path1" attributeName="stroke-dashoffset" dur="3.042" values="89.417; 89.417; 0; 0" keyTimes="0; 0.425; 0.767; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+    </symbol>
+
+    <symbol id="stepperDiagonal" overflow="visible">
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" id="stepperDiagonal_white_line_Path1" d=" M-32.75,32.15599822998047 C-32.75,32.15599822998047 -734.375,31.687000274658203 -734.375,31.687000274658203" stroke-dasharray="701.6251220703125"></path>
+        <use href="#stepperDiagonal_dots" />
+        <use href="#stepperDiagonal_grid" />
+        <use href="#stepperDiagonal_grid" transform="scale(1,-1) translate(0, -64.7)" />
+        <animate href="#stepperDiagonal_white_line_Path1" attributeName="stroke-dashoffset" dur="3.042" values="701.625; 701.625; 0; 0" keyTimes="0; 0.425; 0.767; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+    </symbol>
+
+    <symbol id="stepper_dots" overflow="visible">
+        <path fill="rgb(235,122,17)" fill-opacity="1" id="stepper_orange_dots_Path1" d=" M-75.42500305175781,0 C-75.42500305175781,1.7669999599456787 -76.85800170898438,3.200000047683716 -78.625,3.200000047683716 C-80.39199829101562,3.200000047683716 -81.82499694824219,1.7669999599456787 -81.82499694824219,0 C-81.82499694824219,-1.7669999599456787 -80.39199829101562,-3.200000047683716 -78.625,-3.200000047683716 C-76.85800170898438,-3.200000047683716 -75.42500305175781,-1.7669999599456787 -75.42500305175781,0z" stroke-dasharray="20.1085147857666"></path>
+        <use href="#stepper_orange_dots_Path1" transform="translate(-81,0)" />
+        <use href="#stepper_orange_dots_Path1" transform="translate(-162,0)" />
+        <use href="#stepper_orange_dots_Path1" transform="translate(-243,0)" />
+        <use href="#stepper_orange_dots_Path1" transform="translate(-324,0)" />
+        <use href="#stepper_orange_dots_Path1" transform="translate(-405,0)" />
+        <animate href="#stepper_orange_dots_Path1" attributeName="opacity" dur="3.042" values="0; 0; 1; 1" keyTimes="0; 0.329; 0.671; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" />
+    </symbol>
+    <!--  -->
+    <symbol id="stepper_grid" overflow="visible">
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(235,122,17)" stroke-opacity="1" stroke-width="1" id="stepper_orange_grid_Path3" d=" M-78.47899627685547,-4.375 C-78.47899627685547,-4.375 -78.47899627685547,-10 -78.47899627685547,-10 C-78.47899627685547,-10 -156.64599609375,-10 -156.64599609375,-10 C-156.64599609375,-10 -156.64599609375,-4.375 -156.64599609375,-4.375" stroke-dasharray="89.41699981689453"></path>
+        <use href="#stepper_orange_grid_Path3" transform="translate(-81,0)" />
+        <use href="#stepper_orange_grid_Path3" transform="translate(-162,0)" />
+        <use href="#stepper_orange_grid_Path3" transform="translate(-243,0)" />
+        <use href="#stepper_orange_grid_Path3" transform="translate(-324,0)" />
+        <animate href="#stepper_orange_grid_Path3" attributeName="stroke-dashoffset" dur="3.042" values="89.417; 89.417; 0; 0" keyTimes="0; 0.274; 0.616; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+    </symbol>
+
+    <symbol id="stepper" overflow="visible">
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" id="white_line_Path1" d=" M-44.5,0.164000004529953 C-44.5,0.164000004529953 -483.625,0.1720000058412552 -483.625,0.1720000058412552" stroke-dasharray="439.125"></path>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(235,122,17)" stroke-opacity="1" stroke-width="1" id="orange_line_Path2" d=" M29.875,-21.5 C29.875,-21.5 29.875,-43.25 29.875,-43.25 C29.875,-43.25 -53.125,-43.25 -53.125,-43.25 C-53.125,-43.25 -79.20800018310547,-17.16699981689453 -79.20800018310547,-17.16699981689453 C-79.20800018310547,-17.16699981689453 -483.4580078125,-17.16699981689453 -483.4580078125,-17.16699981689453 C-483.4580078125,-17.16699981689453 -501.375,1 -501.375,1" stroke-dasharray="571.40283203125"></path>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(235,122,17)" stroke-opacity="1" stroke-width="1" id="orange_line_tip_Path1" d=" M-491.25,0.06300000101327896 C-491.25,0.06300000101327896 -525,0.06300000101327896 -525,0.06300000101327896" stroke-dasharray="33.75"></path>
+        <use href="#stepper_dots" />
+        <use href="#stepper_grid" />
+        <animate href="#white_line_Path1" attributeName="stroke-dashoffset" dur="3.042" values="439.125; 439.125; 0; 0" keyTimes="0; 0.274; 0.616; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+        <animate href="#orange_line_Path2" attributeName="stroke-dashoffset" dur="3.042" values="571.403; 571.403; 0; 0" keyTimes="0; 0.274; 0.616; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+        <animate href="#orange_line_tip_Path1" attributeName="stroke-dashoffset" dur="3.042" values="33.750; 33.750; 0; 0" keyTimes="0; 0.274; 0.616; 1" calcMode="spline" keySplines="0.167 0.167 0.833 0.833; 0.167 0.167 0.04 1; 0.167 0.167 0.833 0.833" repeatCount="once" fill="freeze"/>
+    </symbol>
+
+    <symbol id="gridCell" overflow="visible">
+        <path fill="rgb(71,161,223)" fill-opacity="0.277" id="gridCell_Path1" d=" M75.75,-77.125 C75.75,-77.125 75.75,-55.875 75.75,-55.875 C75.75,-55.875 54.5,-77.125 54.5,-77.125 C54.5,-77.125 75.75,-77.125 75.75,-77.125z"></path>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(71,161,223)" stroke-opacity="1" stroke-width="0.8" id="gridCell_Path1" d=" M79.10600280761719,-80.375 C79.10600280761719,-80.375 0.42800000309944153,-80.375 0.42800000309944153,-80.375 C0.42800000309944153,-80.375 0.375,0 0.375,0 C0.375,0 79.0530014038086,0 79.0530014038086,0 C79.0530014038086,0 79.10600280761719,-80.375 79.10600280761719,-80.375z"></path>
+    </symbol>
+
+    <symbol id="gridH" overflow="visible">
+        <use id="gridCell1" href="#gridCell"/>
+        <use id="gridCell2" href="#gridCell1" transform="translate(80.2,0)"/>
+        <use id="gridCell3" href="#gridCell2" transform="translate(80.2,0)"/>
+        <use id="gridCell4" href="#gridCell3" transform="translate(80.2,0)"/>
+        <use id="gridCell5" href="#gridCell4" transform="translate(80.2,0)"/>
+        <use id="gridCell6" href="#gridCell5" transform="translate(80.2,0)"/>
+        <use id="gridCell7" href="#gridCell6" transform="translate(80.2,0)"/>
+    </symbol>
+    <symbol id="gridV" overflow="visible">
+        <use id="gridCellH1" href="#gridH"/>
+        <use id="gridCellH2" href="#gridCellH1" transform="translate(0,-80.2)"/>
+        <use id="gridCellH3" href="#gridCellH2" transform="translate(0,-80.2)"/>
+        <use id="gridCellH4" href="#gridCellH3" transform="translate(0,-80.2)"/>
+        <use id="gridCellH5" href="#gridCellH4" transform="translate(0,-80.2)"/>
+        <use id="gridCellH6" href="#gridCellH5" transform="translate(0,-80.2)"/>
+        <use id="gridCellH7" href="#gridCellH6" transform="translate(0,-80.2)"/>
+    </symbol>
+
+    <symbol id="background" overflow="visible">
+        <use href="#gridV"/>
+        <use href="#gridV" transform="rotate(90)"/>
+        <use href="#gridV" transform="rotate(180)"/>
+        <use href="#gridV" transform="rotate(270)"/>
+        <path fill="rgb(71,161,223)" fill-opacity="0.4" id="Circle 2_Path1" d=" M1.75,-104.5 C59.87799835205078,-104.5 107,-57.37799835205078 107,0.75 C107,58.87799835205078 59.87799835205078,106 1.75,106 C-56.37799835205078,106 -103.5,58.87799835205078 -103.5,0.75 C-103.5,-57.37799835205078 -56.37799835205078,-104.5 1.75,-104.5z"></path>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(71,161,223)" stroke-opacity="1" stroke-width="1" id="Circle 3_Path1" d=" M1.5,-225 C126.04000091552734,-225 227,-124.04000091552734 227,0.5 C227,125.04000091552734 126.04000091552734,226 1.5,226 C-123.04000091552734,226 -224,125.04000091552734 -224,0.5 C-224,-124.04000091552734 -123.04000091552734,-225 1.5,-225z"></path>
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(71,161,223)" stroke-opacity="1" stroke-width="1" id="Arrow_Path1" d=" M480.375,11.125 C480.375,11.125 480.375,22.625 480.375,22.625 C480.375,22.625 526.375,-0.2150000035762787 526.375,-0.2150000035762787 C526.375,-0.2150000035762787 480.375,-23.375 480.375,-23.375 C480.375,-23.375 480.375,-11.875 480.375,-11.875 C480.375,-11.875 484.68798828125,-9 484.68798828125,-9 C484.68798828125,-9 484.68798828125,6.813000202178955 484.68798828125,6.813000202178955 C484.68798828125,6.813000202178955 480.375,11.125 480.375,11.125z"></path>
+    </symbol>
+
+    <g transform="translate(600,600)">
+        <use href="#stepperDiagonal" transform="rotate(45)" />
+        <use href="#stepperDiagonal" transform="rotate(135)" />
+        <use href="#stepperDiagonal" transform="rotate(225)" />
+        <use href="#stepperDiagonal" transform="rotate(315)" />
+        <use href="#stepper" id="1" />
+        <use href="#stepper" id="1" transform="rotate(90)" />
+        <use href="#stepper" id="1" transform="rotate(180)" />
+        <use href="#stepper" id="1" transform="rotate(270)" />
+        <use href="#background" opacity="0.25"/>
+
+
+    </g>
+
+    <!-- <g id="VSCODEVIMACADEMY" fill="rgb(255,255,255)" font-size="8" font-family="Scope One" font-style="normal" font-weight="400" aria-label="VSCODE VIM ACADEMY" transform="matrix(1,0,0,1,600.18505859375,631.5549926757812)" opacity="1" style="display: block;">
+        <text text-anchor="middle" letter-spacing="0">
+            <tspan x="0" y="0" style="display: inherit;">VSCODE VIM</tspan>
+            <tspan x="0" y="9.60000038146973" style="display: inherit;">ACADEMY</tspan>
+        </text>
+    </g>
+    <g id="logo" transform="matrix(0.06499999761581421,0,0,0.06499999761581421,574,574)" opacity="1">
+        <g id="logo_vscode2" transform="matrix(3,0,0,3,548.5,795.25)" opacity="1" style="display: block;">
+            <g opacity="1" transform="matrix(1,0,0,1,3.5,-2)">
+                <path fill="rgb(218,218,218)" fill-opacity="1" id="vscode 2_Path1" d=" M-15,-246 C-15,-246 -122,-246 -122,-246 C-122,-246 -121.75,-139.5 -121.75,-139.5 C-121.75,-139.5 -15,-246 -15,-246z"></path>
+            </g>
+            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                <path fill="rgb(218,218,218)" fill-opacity="1" id="vscode 2_Path1" d=" M56.625,-247.5 C56.625,-247.5 9.5,-248 9.5,-248 C9.5,-248 -131,-107.625 -131,-107.625 C-131,-107.625 -130.5,-247.5 -130.5,-247.5 C-130.5,-247.5 -165.5,-247.5 -165.5,-247.5 C-165.5,-247.5 -165.5,-25.5 -165.5,-25.5 C-165.5,-25.5 56.625,-247.5 56.625,-247.5z"></path>
+            </g>
+            <g opacity="1" transform="matrix(-1,0,0,-1,-99,-263.5)">
+                <path fill="rgb(218,218,218)" fill-opacity="1" id="vscode 2_Path1" d=" M56.625,-247.5 C56.625,-247.5 9.5,-248 9.5,-248 C9.5,-248 -131,-107.625 -131,-107.625 C-131,-107.625 -130.5,-247.5 -130.5,-247.5 C-130.5,-247.5 -165.5,-247.5 -165.5,-247.5 C-165.5,-247.5 -165.5,-25.5 -165.5,-25.5 C-165.5,-25.5 56.625,-247.5 56.625,-247.5z"></path>
+            </g>
+        </g>
+    </g>
+    <animate href="#logo" attributeName="opacity" dur="3.042" values="0; 1; 1; 1" keyTimes="0; 0.247; 0.986; 1" calcMode="spline" keySplines="0.25 0.728 0.667 1; 0.333 0 0.833 1; 0.167 0.167 0.833 0.833" repeatCount="once" sum />
+    <animate href="#VSCODEVIMACADEMY" attributeName="opacity" dur="3.042" values="0; 1; 1; 1" keyTimes="0; 0.247; 0.986; 1" calcMode="spline" keySplines="0.25 0.728 0.667 1; 0.333 0 0.833 1; 0.167 0.167 0.833 0.833" repeatCount="once" sum /> -->
+</svg>

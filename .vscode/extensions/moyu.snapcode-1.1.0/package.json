@@ -1,0 +1,55 @@
+{
+	"name": "snapcode",
+	"displayName": "Snapcode",
+	"description": "📸  Snapcode for your code",
+	"version": "1.1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/moyus/snapcode.git"
+	},
+	"publisher": "moyu",
+	"keywords": [
+		"snapcode",
+		"polacode",
+		"polaroid",
+		"screenshot",
+		"snippet",
+		"share"
+	],
+	"galleryBanner": {
+		"color": "#fbfbfb",
+		"theme": "light"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Other"
+	],
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:snapcode.activate",
+		"onWebviewPanel:snapcode"
+	],
+	"main": "./src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "snapcode.activate",
+				"title": "Snapcode 📸"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^11.12.0",
+		"@types/vscode": "^1.32.0"
+	},
+	"__metadata": {
+		"id": "f5fdc3b4-24a3-42b7-ac9c-61568eb96c07",
+		"publisherId": "6c01458f-fc58-4b2d-bfd2-7289f0ccb089",
+		"publisherDisplayName": "moyu",
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1646500154524
+	}
+}

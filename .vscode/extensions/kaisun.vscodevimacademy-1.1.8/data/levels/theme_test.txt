@@ -1,0 +1,39 @@
+inside
+
+delete
+
+type
+
+hints
+
+paste
+
+match
+
+copy
+
+change
+
+mark
+
+undo
+
+inside inside inside inside inside inside inside inside
+
+delete delete delete delete delete delete delete delete
+
+type type type type type type type type type type type
+
+hints hints hints hints hints hints hints hints hints hints
+
+paste paste paste paste paste paste paste paste paste paste
+
+match match match match match match match match match match
+
+copy copy copy copy copy copy copy copy copy copy copy
+
+change change change change change change change change
+
+mark mark mark mark mark mark mark mark mark mark
+
+undo undo undo undo undo undo undo undo undo undo undo

@@ -1,0 +1,37 @@
+.spectrum-ProgressBar .spectrum-ProgressBar-fill {
+    background: rgb(20, 115, 230);
+  }
+.spectrum-ProgressBar .spectrum-ProgressBar-track {
+    background-color: rgb(225, 225, 225);
+  }
+.spectrum-ProgressBar.spectrum-ProgressBar--overBackground .spectrum-ProgressBar-fill {
+      background: rgb(255, 255, 255);
+    }
+.spectrum-ProgressBar.spectrum-ProgressBar--overBackground .spectrum-ProgressBar-label,
+    .spectrum-ProgressBar.spectrum-ProgressBar--overBackground .spectrum-ProgressBar-percentage {
+      color: rgb(255, 255, 255);
+    }
+.spectrum-ProgressBar.spectrum-ProgressBar--overBackground .spectrum-ProgressBar-track {
+      background-color: rgba(255,255,255,0.2);
+    }
+.spectrum-ProgressBar.is-positive .spectrum-ProgressBar-fill {
+      background: rgb(45, 157, 120);
+    }
+.spectrum-ProgressBar.is-warning .spectrum-ProgressBar-fill {
+      background: rgb(230, 134, 25);
+    }
+.spectrum-ProgressBar.is-critical .spectrum-ProgressBar-fill {
+      background: rgb(227, 72, 80);
+    }
+.spectrum-ProgressBar-label,
+.spectrum-ProgressBar-percentage {
+  color: rgb(110, 110, 110);
+}
+.spectrum-ProgressBar-label,
+.spectrum-ProgressBar-percentage {
+  color: rgb(110, 110, 110);
+}
+.spectrum-ProgressBar-label,
+.spectrum-ProgressBar-percentage {
+  color: rgb(110, 110, 110);
+}

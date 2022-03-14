@@ -1,0 +1,54 @@
+.spectrum-Divider {
+  width: 100%;
+  overflow: visible;
+
+  border: none;
+  border-width: var(--spectrum-divider-medium-height, var(--spectrum-global-dimension-static-size-25));
+  border-radius: var(--spectrum-divider-medium-height, var(--spectrum-global-dimension-static-size-25));
+}
+
+.spectrum-Divider--large {
+  height: var(--spectrum-divider-large-height, var(--spectrum-global-dimension-static-size-50));
+
+  border-radius: var(--spectrum-divider-large-border-radius, var(--spectrum-global-dimension-static-size-25));
+}
+
+.spectrum-Divider--medium {
+  height: var(--spectrum-divider-medium-height, var(--spectrum-global-dimension-static-size-25));
+
+  border-radius: var(--spectrum-divider-medium-border-radius, var(--spectrum-global-dimension-static-size-10));
+}
+
+.spectrum-Divider--small {
+  height: var(--spectrum-divider-small-height, var(--spectrum-global-dimension-static-size-10));
+
+  border-radius: var(--spectrum-divider-small-border-radius, var(--spectrum-global-dimension-static-size-10));
+}
+
+.spectrum-Divider--vertical {
+  height: 100%;
+}
+
+.spectrum-Divider--vertical.spectrum-Divider--large {
+    width: var(--spectrum-divider-large-vertical-width, var(--spectrum-global-dimension-static-size-50));
+  }
+
+.spectrum-Divider--vertical.spectrum-Divider--medium {
+    width: var(--spectrum-divider-medium-vertical-width, var(--spectrum-global-dimension-static-size-25));
+  }
+
+.spectrum-Divider--vertical.spectrum-Divider--small {
+    width: var(--spectrum-divider-small-vertical-width, var(--spectrum-global-dimension-static-size-10));
+  }
+
+.spectrum-Divider--large {
+  background-color: var(--spectrum-divider-large-background-color, var(--spectrum-global-color-gray-800));
+}
+
+.spectrum-Divider--medium {
+  background-color: var(--spectrum-divider-medium-background-color, var(--spectrum-global-color-gray-300));
+}
+
+.spectrum-Divider--small {
+  background-color: var(--spectrum-divider-small-background-color, var(--spectrum-global-color-gray-300));
+}

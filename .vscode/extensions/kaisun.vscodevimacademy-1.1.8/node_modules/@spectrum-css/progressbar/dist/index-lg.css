@@ -1,0 +1,132 @@
+.spectrum-ProgressBar {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 240px;
+  vertical-align: top;
+}
+.spectrum-ProgressBar-track {
+  overflow: hidden;
+  width: 240px;
+  height: 8px;
+  border-radius: 4px;
+  z-index: 1;
+}
+.spectrum-ProgressBar-fill {
+  border: none;
+  height: 8px;
+
+  transition: width 1s;
+}
+[dir="ltr"] .spectrum-ProgressBar-label,[dir="ltr"] 
+.spectrum-ProgressBar-percentage {
+  text-align: left;
+}
+[dir="rtl"] .spectrum-ProgressBar-label,[dir="rtl"] 
+.spectrum-ProgressBar-percentage {
+  text-align: right;
+}
+.spectrum-ProgressBar-label,
+.spectrum-ProgressBar-percentage {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 11px;
+}
+.spectrum-ProgressBar-label {
+  -ms-flex: 1 1 0%;
+      flex: 1 1 0%;
+}
+[dir="ltr"] .spectrum-ProgressBar-percentage {
+  margin-left: 15px;
+}
+[dir="rtl"] .spectrum-ProgressBar-percentage {
+  margin-right: 15px;
+}
+.spectrum-ProgressBar-percentage {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.spectrum-ProgressBar--sideLabel {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: auto;
+}
+[dir="ltr"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-label {
+    margin-right: 15px;
+}
+[dir="rtl"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-label {
+    margin-left: 15px;
+}
+.spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-label {
+    margin-bottom: 0;
+  }
+[dir="ltr"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-percentage {
+    text-align: right;
+}
+[dir="rtl"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-percentage {
+    text-align: left;
+}
+[dir="ltr"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-percentage {
+    margin-left: 15px;
+}
+[dir="rtl"] .spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-percentage {
+    margin-right: 15px;
+}
+.spectrum-ProgressBar--sideLabel .spectrum-ProgressBar-percentage {
+    -ms-flex-order: 3;
+        order: 3;
+    margin-bottom: 0;
+  }
+.spectrum-ProgressBar--small {
+  min-width: 240px;
+}
+.spectrum-ProgressBar--small .spectrum-ProgressBar-fill {
+    height: 5px;
+  }
+.spectrum-ProgressBar--small .spectrum-ProgressBar-track {
+    height: 5px;
+    border-radius: 3px;
+  }
+.spectrum-ProgressBar--indeterminate .spectrum-ProgressBar-fill {
+  width: 170px;
+  position: relative;
+  animation-timing-function: cubic-bezier(.45, 0, .40, 1);
+  will-change: transform;
+}
+[dir="ltr"] .spectrum-ProgressBar--indeterminate .spectrum-ProgressBar-fill {
+  animation: indeterminate-loop-ltr
+    1000ms infinite;
+}
+[dir="rtl"] .spectrum-ProgressBar--indeterminate .spectrum-ProgressBar-fill {
+  animation: indeterminate-loop-rtl
+    1000ms infinite;
+}
+@keyframes indeterminate-loop-ltr {
+  from {
+    transform: translate(
+      -170px
+    );
+  }
+  to {
+    transform: translate(240px);
+  }
+}
+@keyframes indeterminate-loop-rtl {
+  from {
+    transform: translate(240px);
+  }
+  to {
+    transform: translate(-240px);
+  }
+}

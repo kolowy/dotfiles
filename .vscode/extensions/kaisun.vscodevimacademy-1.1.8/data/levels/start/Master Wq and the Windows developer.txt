@@ -1,0 +1,28 @@
+Master Wq and the Windows developer
+
+Master Wq was addressing some Vim novices. After his lecture on the many
+virtues of Vim, he asked if there were any questions. A young man raised his
+hand.
+
+“Master, by what means might one filter for the second column of a plaintext
+table for all rows that contain the string ‘tcp’?”
+
+Master Wq said nothing, turned to the whiteboard behind him, and wrote:
+
+    :%!awk '/tcp/{print $2}'
+
+There was a murmur of approval from the other students.
+
+“But I develop on Windows … ” the student stammered.
+
+Master Wq turned again, erased the command, and wrote:
+
+    :v/tcp/d :v/^\s*\S\+\s\+\(\S\+\).*/d :%s//\1/
+
+“What! That is far too complex for such a simple task!” cried the student.
+
+Master Wq turned again, erased the command, and wrote:
+
+    Microsoft Excel
+
+At once, the student was enlightened.

@@ -1,0 +1,9 @@
+[Unit]
+Description=Alert in case of low remaining battery
+
+[Service]
+Type=oneshot
+ExecStart=/home/paul/.config/bin/alert-battery
+
+[Install]
+WantedBy=graphical.target

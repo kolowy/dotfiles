@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		// "liveServer.settings.port": 5501,
+		"svg.preview.background": "custom",
+		"liveServer.settings.port": 5501
+	}
+}

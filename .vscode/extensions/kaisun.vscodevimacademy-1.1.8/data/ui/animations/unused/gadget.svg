@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100" height="100" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+    <defs>
+        <path id="spark1" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-dasharray=" 114.6" stroke-dashoffset="113.35302734375" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="8" d=" M0,-102.88700103759766 C0,-102.88700103759766 0,7.88700008392334 0,7.88700008392334"></path>
+        <mask id="circle6-Ellipse3-mask">
+            <path id="circle6-Ellipse5-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 260" stroke-dashoffset="547" stroke="rgb(255,255,255)" stroke-opacity="0.46" stroke-width="37" d=" M0,-77.5 C42.77225112915039,-77.5 77.5,-42.77225112915039 77.5,0 C77.5,42.77225112915039 42.77225112915039,77.5 0,77.5 C-42.77225112915039,77.5 -77.5,42.77225112915039 -77.5,0 C-77.5,-42.77225112915039 -42.77225112915039,-77.5 0,-77.5z">
+            </path>
+            <animate href="#circle6-Ellipse5-path" attributeName="stroke-dashoffset" dur="4.38" values="289; 289; 547; 547" keyTimes="0; 0.019; 0.124; 1" repeatCount="indefinite" />
+        </mask>
+
+        <mask id="circle3-Ellipse1-mask">
+            <path id="circle3-Ellipse2-mask" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 985" stroke-dashoffset="2141.006103515625" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="79" d=" M0,-124 C68.43560028076172,-124 124,-68.43560028076172 124,0 C124,68.43560028076172 68.43560028076172,124 0,124 C-68.43560028076172,124 -124,68.43560028076172 -124,0 C-124,-68.43560028076172 -68.43560028076172,-124 0,-124z"></path>
+            <animate href="#circle3-Ellipse2-mask" attributeName="stroke-dashoffset" dur="4.38" values="1105; 1105; 2141.006; 2141.006" keyTimes="0; 0.2; 0.305; 1" repeatCount="indefinite" />
+        </mask>
+
+    </defs>
+        <g id="bffQWWEGASDh1" ></g>
+    <g id="gadget" transform="translate(500,500)" opacity="0">
+        <animate href="#gadget" attributeName="opacity" calcMode="discrete" dur="4.38" values="1; 0; 0" keyTimes="0; 0.95; 1" repeatCount="once" />
+        <g id="spark" transform="scale(1.128, 1.128)">
+            <use href="#spark1" id="spark2" transform="" />
+            <use href="#spark2" id="spark3" transform="rotate(45)" />
+            <use href="#spark3" id="spark4" transform="rotate(45)" />
+            <use href="#spark4" id="spark5" transform="rotate(45)" />
+            <use href="#spark5" id="spark6" transform="rotate(45)" />
+            <use href="#spark6" id="spark7" transform="rotate(45)" />
+            <use href="#spark7" id="spark8" transform="rotate(45)" />
+            <use href="#spark8" id="spark9" transform="rotate(45)" />
+            <use href="#spark9" id="spark10" transform="rotate(45)" />
+            <animate href="#spark1" attributeName="stroke-dashoffset" dur="4.38" calcMode="linear" values="0; 0; 0; 114.6; 114.6" keyTimes="0; 0.819; 0.838; 0.981; 1" repeatCount="indefinite" />
+            <animateTransform href="#spark1" attributeName="transform" type="scale" dur="4.38" calcMode="linear" values="0; 0; 0.7; 0.7" keyTimes="0; 0.819; 0.981; 1" repeatCount="indefinite" />
+        </g>
+
+        <g id="circle2">
+            <g id="circle2-el2">
+                <path id="circle2-el2-path" mask="url(#trimMask)" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 88 88 88 88" stroke-dashoffset="88" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="10" d=" M0,-116.5 C64.29634857177734,-116.5 116.5,-64.29634857177734 116.5,0 C116.5,64.29634857177734 64.29634857177734,116.5 0,116.5 C-64.29634857177734,116.5 -116.5,64.29634857177734 -116.5,0 C-116.5,-64.29634857177734 -64.29634857177734,-116.5 0,-116.5z"></path>
+            </g>
+            <g id="circle2-el1">
+                <path id="circle2-el1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="1" d=" M0,-111.5 C61.53684997558594,-111.5 111.5,-61.53684997558594 111.5,0 C111.5,61.53684997558594 61.53684997558594,111.5 0,111.5 C-61.53684997558594,111.5 -111.5,61.53684997558594 -111.5,0 C-111.5,-61.53684997558594 -61.53684997558594,-111.5 0,-111.5z"></path>
+            </g>
+            <animateTransform href="#circle2" attributeName="transform" type="scale" dur="4.38" calcMode="spline" values="1.392; 1.392; 0; 0" keyTimes="0; 0.676; 0.867; 1" keySplines="0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle2" attributeName="transform" type="rotate" dur="1" values="78;45;90;42;78" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle2-el1" attributeName="transform" type="scale" dur="4.38" calcMode="spline" values="0.5; 1; 1" keyTimes="0; 0.105; 1" keySplines="0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167" repeatCount="indefinite" />
+            <animateTransform href="#circle2-el2" attributeName="transform" type="scale" dur="4.38" calcMode="spline" values="0.5; 1; 1" keyTimes="0; 0.105; 1" keySplines="0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167" repeatCount="indefinite" />
+            <animate href="#circle2-el2-path" attributeName="stroke-dasharray" dur="4.38" calcMode="spline" values="0 745 88 88 88; 88 88 88 88 88; 88 88 88 88 88" keyTimes="0; 0.105; 1" keySplines="0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167" repeatCount="indefinite" />
+        </g>
+
+        <g id="circle10">
+            <g id="circle10-Ellipse1">
+                <path id="circle10-Ellipse1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray="0" stroke-dashoffset="0" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="10" d=" M0,-116.5 C64.29634857177734,-116.5 116.5,-64.29634857177734 116.5,0 C116.5,64.29634857177734 64.29634857177734,116.5 0,116.5 C-64.29634857177734,116.5 -116.5,64.29634857177734 -116.5,0 C-116.5,-64.29634857177734 -64.29634857177734,-116.5 0,-116.5z"></path>
+            </g>
+            <g id="circle10-Ellipse2">
+                <path id="circle10-Ellipse2-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray="707" stroke-dashoffset="707" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="1" d=" M0,-111.5 C61.53684997558594,-111.5 111.5,-61.53684997558594 111.5,0 C111.5,61.53684997558594 61.53684997558594,111.5 0,111.5 C-61.53684997558594,111.5 -111.5,61.53684997558594 -111.5,0 C-111.5,-61.53684997558594 -61.53684997558594,-111.5 0,-111.5z"></path>
+            </g>
+
+            <animate href="#circle10" attributeName="opacity" calcMode="discrete" dur="4.38" values="0; 1; 1" keyTimes="0; 0.2; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle10" attributeName="transform" type="scale" dur="4.38" values="2.712; 2.712; 0; 0" keyTimes="0; 0.733; 0.848; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle10-Ellipse1" attributeName="transform" type="scale" dur="4.38" values="0.5; 0.5; 1; 1" keyTimes="0; 0.2; 0.305; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle10-Ellipse2" attributeName="transform" type="scale" dur="4.38" values="0.5; 0.5; 1; 1" keyTimes="0; 0.2; 0.305; 1" repeatCount="indefinite" additive="sum" />
+
+            <animate href="#circle10-Ellipse1-path" attributeName="stroke-dasharray" dur="4.38" values="88 88 88 88 88 88; 88 785 88 88 88 88; 88 110 88 88 88 88; 88 110 88 88 88 88" keyTimes="0; 0.2; 0.305; 1" repeatCount="indefinite" />
+            <animate href="#circle10-Ellipse1-path" attributeName="stroke-dashoffset" dur="4.38" values="88; 88; 883.947; 883.947" keyTimes="0; 0.305; 0.848; 1" repeatCount="indefinite" />
+            <animate href="#circle10-Ellipse2-path" attributeName="stroke-dashoffset" dur="4.38" values="707; 707; 1420; 1420" keyTimes="0; 0.2; 0.305; 1" repeatCount="indefinite" />
+        </g>
+
+        <g id="circle11">
+            <g id="circle11-el1">
+                <path id="circle11-el1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 88 88 88 88 88 88" stroke-dashoffset="0" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="10" d=" M0,-116.5 C64.29634857177734,-116.5 116.5,-64.29634857177734 116.5,0 C116.5,64.29634857177734 64.29634857177734,116.5 0,116.5 C-64.29634857177734,116.5 -116.5,64.29634857177734 -116.5,0 C-116.5,-64.29634857177734 -64.29634857177734,-116.5 0,-116.5z"></path>
+            </g>
+            <g id="circle11-el2">
+                <path id="circle11-el2-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 703" stroke-dashoffset="703" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="1" d=" M0,-111.5 C61.53684997558594,-111.5 111.5,-61.53684997558594 111.5,0 C111.5,61.53684997558594 61.53684997558594,111.5 0,111.5 C-61.53684997558594,111.5 -111.5,61.53684997558594 -111.5,0 C-111.5,-61.53684997558594 -61.53684997558594,-111.5 0,-111.5z"></path>
+            </g>
+            <animateTransform href="#circle11" attributeName="transform" type="scale" dur="4.38" calcMode="spline" values="0.408; 0.408; 0.408; 0; 0; 0" keyTimes="0; 0.381; 0.733; 0.848; 0.981; 1" keySplines="0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167; 0.833 0.833 0.167 0.167" repeatCount="indefinite" />
+            <animateTransform href="#circle11-el1" attributeName="transform" type="scale" dur="4.38" calcMode="linear" values="0.5; 0.5; 1; 1; 1" keyTimes="0; 0.276; 0.381; 0.981; 1" keySplines="0.833 0.833 0.167 0.167; 0.667 1 0.167 0.167; 0.833 1 0.333 0; 0.833 1 0.333 0" repeatCount="indefinite" />
+            <animateTransform href="#circle11-el2" attributeName="transform" type="scale" dur="4.38" calcMode="linear" values="0.5; 0.5; 1; 1" keyTimes="0; 0.276; 0.381; 1" keySplines="0.667 1 0.167 0.167; 0.667 1 0.167 0.167; 0.667 1 0.167 0.167" repeatCount="indefinite" />
+
+            <animate href="#circle11" attributeName="opacity" dur="4.38" calcMode="discrete" values="0; 1; 1" keyTimes="0; 0.276; 1" repeatCount="indefinite" />
+            <animate href="#circle11-el2-path" attributeName="stroke-dashoffset" dur="4.38" values="703; 703; 1405; 1405" keyTimes="0; 0.276; 0.381; 1" repeatCount="indefinite" />
+            <animate href="#circle11-el1-path" attributeName="stroke-dasharray" dur="4.38" values="88 741 88 88 88; 88 741 88 88 88; 88 88 88 88 88; 88 88 88 88 88" keyTimes="0; 0.276; 0.381; 1" repeatCount="indefinite" />
+            <animate href="#circle11-el1-path" attributeName="stroke-dashoffset" dur="4.38" values="88; 88; 285; 901; 2301" keyTimes="0; 0.276; 0.381; 0.733; 1" repeatCount="indefinite" />
+        </g>
+
+        <g id="circle9">
+            <path id="circle9-Ellipse1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 3 289 3 289" stroke-dashoffset="-17" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="24" d=" M0,-124 C68.43560028076172,-124 124,-68.43560028076172 124,0 C124,68.43560028076172 68.43560028076172,124 0,124 C-68.43560028076172,124 -124,68.43560028076172 -124,0 C-124,-68.43560028076172 -68.43560028076172,-124 0,-124z"></path>
+            <animate href="#circle9" attributeName="opacity" calcMode="discrete" dur="4.38" values="0; 1; 1" keyTimes="0; 0.152; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle9" attributeName="transform" type="rotate" dur="4.38" values="0; 0; -237; -237" keyTimes="0; 0.152; 0.257; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle9" attributeName="transform" type="scale" dur="4.38" values="2.688; 2.688; 0; 0" keyTimes="0; 0.781; 0.895; 1" repeatCount="indefinite" additive="sum" />
+            <animate href="#circle9-Ellipse1-path" attributeName="stroke-dasharray" dur="4.38" values="3 872 3 289 -17; 3 872 3 289 -17; 3 289 3 289 -17; 3 289 3 289 -17" keyTimes="0; 0.152; 0.257; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle9-Ellipse1-path" attributeName="transform" type="rotate" dur="3.9" values="115;24;81;26;115" keyTimes="0; 0.27; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+        </g>
+
+        <g id="circle8">
+            <path id="circle8-Ellipse1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 100 100 100 100" stroke-dashoffset="154" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="1" d=" M0,-100.5 C55.46595001220703,-100.5 100.5,-55.46595001220703 100.5,0 C100.5,55.46595001220703 55.46595001220703,100.5 0,100.5 C-55.46595001220703,100.5 -100.5,55.46595001220703 -100.5,0 C-100.5,-55.46595001220703 -55.46595001220703,-100.5 0,-100.5z"></path>
+            <animate href="#circle8" attributeName="opacity" dur="4.38" values="0; 1; 1" keyTimes="0; 0.076; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle8" attributeName="transform" type="scale" dur="4.38" values="2.4; 2.4; 0; 0" keyTimes="0; 0.714; 0.829; 1" repeatCount="indefinite" additive="sum" />
+            <animate href="#circle8-Ellipse1-path" attributeName="stroke-dasharray" dur="4.38" values="100 708 100 100 154; 100 708 100 100 154; 100 100 100 100 154; 100 100 100 100 154" keyTimes="0; 0.076; 0.181; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle8-Ellipse1-path" attributeName="transform" type="rotate" dur="2.9" values="115;24;81;26;115" keyTimes="0; 0.27; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+        </g>
+
+        <g id="circle4">
+            <path id="circle4-Ellipse1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 100 100 100 100" stroke-dashoffset="154" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="7" d=" M0,-100.5 C55.46595001220703,-100.5 100.5,-55.46595001220703 100.5,0 C100.5,55.46595001220703 55.46595001220703,100.5 0,100.5 C-55.46595001220703,100.5 -100.5,55.46595001220703 -100.5,0 C-100.5,-55.46595001220703 -55.46595001220703,-100.5 0,-100.5z"></path>
+            <animate href="#circle4" attributeName="opacity" dur="4.38" values="0; 1; 1" keyTimes="0; 0.057; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle4" attributeName="transform" type="scale" dur="4.38" values="2.328; 2.328; 2.88; 2.88; 0; 0" keyTimes="0; 0.057; 0.143; 0.571; 0.79; 1" repeatCount="indefinite" additive="sum" />
+            <animate href="#circle4-Ellipse1-path" attributeName="stroke-dasharray" dur="4.38" values="100 695 100 100 154; 100 695 100 100 154; 100 100 100 100 154; 100 100 100 100 154" keyTimes="0; 0.057; 0.162; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle4-Ellipse1-path" attributeName="transform" type="rotate" dur="0.9" values="61;42;81;39;68" keyTimes="0; 0.27; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+        </g>
+
+        <g id="circle3">
+            <path id="circle3-Ellipse2-path" mask="url(#circle3-Ellipse1-mask)" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 45 119 8 108" stroke-dashoffset="0" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="46" d=" M0,-124 C68.43560028076172,-124 124,-68.43560028076172 124,0 C124,68.43560028076172 68.43560028076172,124 0,124 C-68.43560028076172,124 -124,68.43560028076172 -124,0 C-124,-68.43560028076172 -68.43560028076172,-124 0,-124z"></path>
+
+            <animate href="#circle3" calcMode="discrete" attributeName="opacity" dur="4.38" values="0; 1; 1" keyTimes="0; 0.2; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle3" attributeName="transform" type="scale" dur="4.38" values="3; 3; 0; 0" keyTimes="0; 0.676; 0.79; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle3-Ellipse2-path" attributeName="transform" type="rotate" dur="0.9" values="58;45;78;42;65" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+        </g>
+
+        <g id="circle6">
+            <path id="circle6-Ellipse1-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 30 294 30 68 30 68" stroke-dashoffset="294" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="31" d=" M0,-46.5 C25.663349151611328,-46.5 46.5,-25.663349151611328 46.5,0 C46.5,25.663349151611328 25.663349151611328,46.5 0,46.5 C-25.663349151611328,46.5 -46.5,25.663349151611328 -46.5,0 C-46.5,-25.663349151611328 -25.663349151611328,-46.5 0,-46.5z"></path>
+            <path id="circle6-Ellipse2-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 200" stroke-dashoffset="400" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="14" d=" M0,-30 C16.55699920654297,-30 30,-16.55699920654297 30,0 C30,16.55699920654297 16.55699920654297,30 0,30 C-16.55699920654297,30 -30,16.55699920654297 -30,0 C-30,-16.55699920654297 -16.55699920654297,-30 0,-30z"></path>
+            <path id="circle6-Ellipse3-path" mask="url(#circle6-Ellipse3-mask)" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-dasharray=" 3 18" stroke-dashoffset="0" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="10" d=" M0,-77.5 C42.77225112915039,-77.5 77.5,-42.77225112915039 77.5,0 C77.5,42.77225112915039 42.77225112915039,77.5 0,77.5 C-42.77225112915039,77.5 -77.5,42.77225112915039 -77.5,0 C-77.5,-42.77225112915039 -42.77225112915039,-77.5 0,-77.5z"></path>
+            <path id="circle6-Ellipse4-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(0,239,255)" stroke-opacity="1" stroke-width="2" d=" M0,-71.5 C39.46084976196289,-71.5 71.5,-39.46084976196289 71.5,0 C71.5,39.46084976196289 39.46084976196289,71.5 0,71.5 C-39.46084976196289,71.5 -71.5,39.46084976196289 -71.5,0 C-71.5,-39.46084976196289 -39.46084976196289,-71.5 0,-71.5z"></path>
+
+            <animate href="#circle6" attributeName="opacity" calcMode="discrete" dur="4.38" values="0; 1; 1" keyTimes="0; 0.019; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle6" attributeName="transform" type="scale" dur="4.38" values="2.4; 2.4; 0; 0" keyTimes="0; 0.676; 0.876; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle6" attributeName="transform" type="scale" dur="4.38" values="0.5; 0.5; 1; 1" keyTimes="0; 0.019; 0.124; 1" repeatCount="indefinite" additive="sum" />
+            <animate href="#circle6-Ellipse1-path" attributeName="stroke-dashoffset" dur="4.38" values="30; 30; 294; 294" keyTimes="0; 0.019; 0.124; 1" repeatCount="indefinite" />
+            <animate href="#circle6-Ellipse2-path" attributeName="stroke-dashoffset" dur="4.38" values="200; 200; 400; 400" keyTimes="0; 0.019; 0.124; 1" repeatCount="indefinite" />
+            <animateTransform href="#circle6-Ellipse1-path" attributeName="transform" type="rotate" dur="1.8" values="78;45;90;42;78" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle6-Ellipse3-path" attributeName="transform" type="rotate" dur="2" values="78;45;90;42;78" keyTimes="0; 0.25; 0.5; 0.75; 1" repeatCount="indefinite" additive="sum" />
+        </g>
+
+        <g id="circle12">
+            <path id="circle12-Ellipse2-path" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" fill="rgb(132,132,132)" stroke-miterlimit="4" stroke-dasharray=" 702" stroke-dashoffset="1404" stroke="rgb(132,132,132)" stroke-opacity="1" stroke-width="1" d=" M0,-111.5 C61.53684997558594,-111.5 111.5,-61.53684997558594 111.5,0 C111.5,61.53684997558594 61.53684997558594,111.5 0,111.5 C-61.53684997558594,111.5 -111.5,61.53684997558594 -111.5,0 C-111.5,-61.53684997558594 -61.53684997558594,-111.5 0,-111.5z"></path>
+            <animateTransform href="#circle12" attributeName="transform" type="scale" dur="4.38" values="2.712; 2.712; 0; 0" keyTimes="0; 0.676; 0.838; 1" repeatCount="indefinite" additive="sum" />
+            <animateTransform href="#circle12" attributeName="transform" type="scale" dur="4.38" values="0.5; 0.5; 1; 1" keyTimes="0; 0.124; 0.229; 1" repeatCount="indefinite" additive="sum" />
+            <animate href="#circle12-Ellipse2-path" attributeName="fill-opacity" dur="4.38" values="0; 0; 0.05; 0.05" keyTimes="0; 0.124; 0.229; 1" repeatCount="indefinite" />
+            <animate href="#circle12-Ellipse2-path" attributeName="stroke-dashoffset" dur="4.38" values="702; 702; 1404; 1404" keyTimes="0; 0.124; 0.229; 1" repeatCount="indefinite" />
+            <animate href="#circle12" attributeName="opacity" calcMode="discrete" dur="4.38" values="0; 1; 1" keyTimes="0; 0.124; 1" repeatCount="indefinite" />
+        </g>
+    </g>
+
+</svg>
