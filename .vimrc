@@ -20,13 +20,13 @@ set backspace=eol,start,indent
 set belloff=all
 
 set hlsearch " search highlighting
-set lazyredraw " for perf
+set lazyredraw " for perfu
 
 set linebreak " avoid wrapping a line in the middle of a word
 syntax enable " enable syntax highlighting
 set cursorline "highlight the line under scheme
 set number " number line
-"set relativenumber " nb relatifs
+set relativenumber " nb relatifs
 set spell " enable spellchecking
 set notermguicolors
 
@@ -45,20 +45,28 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'ycm-core/YouCompleteMe'
 Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'lervag/vimtex'
 Plugin 'Yggdroot/indentLine'
-Plugin 'zxqfl/tabnine-vim'
+
+" autocomplete
+Plugin 'prabirshrestha/vim-lsp'
+Plugin 'mattn/vim-lsp-settings'
+
+Plugin 'prabirshrestha/asyncomplete.vim'
+Plugin 'prabirshrestha/asyncomplete-lsp.vim'
+
 
 call vundle#end()
 filetype plugin indent on
 
+
 set background=dark
 colorscheme gruvbox
 syntax on
+
 
 let g:airline_theme='gruvbox'
 
@@ -66,16 +74,11 @@ let g:airline_theme='gruvbox'
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 let g:indentLine_leadingSpaceChar=' '
 let g:indentLine_leadingSpaceEnabled='1'
-" "let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
-" "set runtimepath+=~/.vim/bundle/YouCompleteMe
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""                     Short curts                       """""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-
 "" autocomplete for () and {} ect
 " autocmd Filetype {cs,py,c,cpp,h} call SetCSharpAutocompletion()
 " function SetCSharpAutocompletion()
@@ -91,8 +94,6 @@ let g:indentLine_leadingSpaceEnabled='1'
 
   inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "\'" ? "\<Right>" : "\'\'\<Left>"
   inoremap <expr> " strpart(getline('.'), col('.')-1, 1) == "\"" ? "\<Right>" : "\"\"\<Left>"
-"  inoremap <expr> <BS>  strpart(getline('.'), col('.')-2, 2) == "''" ? "\<BS><Del>" : "\<BS>"
-"  inoremap <expr> ; strpart(getline('.'), col('.')-1, 1) == ")" ? "\<End>;" : ";"
   inoremap for<Space> for ()<Left>
   inoremap if<Space> if ()<Left>
   inoremap if<Tab> if ()<Left>
@@ -119,5 +120,47 @@ noremap + ddkP
 noremap - ddp
 noremap * yyp
 imap ii <Esc>
+
+
+
+
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
+
+imap <c-space> <Plug>(asyncomplete_force_refresh)
+" For Vim 8 (<c-@> corresponds to <c-space>):
+" " imap <c-@> <Plug>(asyncomplete_force_refresh)
+
+
+
+let g:asyncomplete_auto_popup = 0
+
+function! s:check_back_space() abort
+        let col = col('.') - 1
+            return !col || getline('.')[col - 1]  =~ '\s'
+        endfunction
+
+        inoremap <silent><expr> <TAB>
+          \ pumvisible() ? "\<C-n>" :
+          \ <SID>check_back_space() ? "\<TAB>" :
+          \ asyncomplete#force_refresh()
+        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+" allow modifying the completeopt variable, or it will
+" be overridden all the time
+let g:asyncomplete_auto_completeopt = 0
+
+set completeopt=menuone,noinsert,noselect,preview"
+
+
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+
+
+
+
+
+
+
 
 

@@ -10,11 +10,15 @@ convert $img $icon -fill black -gravity center -composite $img
 # suspend the message display
 pkill -u "$USER" -USR1 dunst
 
-i3lock -f -n --indicator -k --inside-color=ffffff1c --insidever-color=0000001c \
-        --insidewrong-color=0000001c --time-color=ffffff99 --date-color=ffffff99 \
-        --verif-color=aaaaff99 --wrong-color=ffaaaa99 -i $img
+i3lock -n --indicator -k -f -i $img \
+    --inside-color=ffffff1c --insidever-color=0000001c \
+    --insidewrong-color=0000001c --time-color=ffffff99 --date-color=ffffff99 \
+    --verif-color=aaaaff99 --wrong-color=ffaaaa99 -i $img
 
 # resume message
 pkill -u "$USER" -USR2 dunst
 
+# del the img
 rm $img
+
+
