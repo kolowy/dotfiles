@@ -45,8 +45,7 @@ export COLOR_WHITE='\e[38;5;255m'
 UC=$COLOR_WHITE                      # user's color
 [ $UID -eq "0" ] && UC=$COLOR_RED    # root's color
 
-PS1="\n\[${UC}\]\h\[${COLOR_BLUE}\]@\[${COLOR_LIGHT_BLUE}\]\u
-\[${COLOR_LIGHT_RED}\]\[${COLOR_LIGHT_GREEN}\]\w\[${COLOR_GREEN}\]$\[${COLOR_NC}\] "
+PS1="\n\[${UC}\]\h\[${COLOR_BLUE}\]@\[${COLOR_LIGHT_BLUE}\]\u \[${COLOR_LIGHT_RED}\]\[${COLOR_LIGHT_GREEN}\]\w\n\[${COLOR_GREEN}\]$\[${COLOR_NC}\] "
 
 
 weather(){
@@ -62,4 +61,8 @@ function count()
     total=$1
     for ((i=total; i>0; i--)); do sleep 1; printf "Time left : $i s \r"; done
     echo -e "\a   TIME UP !!!!"
+}
+function calc()
+{
+    echo $0 | ./Documents/S2/prog/paul.dufour-2026-abacus/Abacus/bin/Debug/net5.0/Abacus
 }

@@ -1,7 +1,7 @@
 " ~/.vimrc
 
 set encoding=utf-8
-set cc=80
+set cc=200
 noremap <C-i> :syntax on<cr>
 set expandtab
 set shiftwidth=4
@@ -58,10 +58,12 @@ Plugin 'mattn/vim-lsp-settings'
 Plugin 'prabirshrestha/asyncomplete.vim'
 Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 
-
 call vundle#end()
 filetype plugin indent on
 
+let g:gruvbox_bold = 1
+let g:gruvbox_transpartent_bg = 1
+let g:gruvbox_underline = 1
 
 set background=dark
 colorscheme gruvbox
@@ -80,8 +82,8 @@ let g:indentLine_leadingSpaceEnabled='1'
 """""""""""                     Short curts                       """""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" autocomplete for () and {} ect
-" autocmd Filetype {cs,py,c,cpp,h} call SetCSharpAutocompletion()
-" function SetCSharpAutocompletion()
+autocmd Filetype {cs,py,c,cpp,h} call SetCSharpAutocompletion()
+function SetCSharpAutocompletion()
   inoremap {      {}<Left>
   inoremap {<CR>  <CR>{<CR>}<Esc>O
   inoremap {{     {
@@ -97,7 +99,7 @@ let g:indentLine_leadingSpaceEnabled='1'
   inoremap for<Space> for ()<Left>
   inoremap if<Space> if ()<Left>
   inoremap if<Tab> if ()<Left>
-" endfunction
+endfunction
 
 
 " crtl+t -> Tree
@@ -133,7 +135,6 @@ imap <c-space> <Plug>(asyncomplete_force_refresh)
 " " imap <c-@> <Plug>(asyncomplete_force_refresh)
 
 
-
 let g:asyncomplete_auto_popup = 0
 
 function! s:check_back_space() abort
@@ -149,13 +150,12 @@ function! s:check_back_space() abort
 
 " allow modifying the completeopt variable, or it will
 " be overridden all the time
-let g:asyncomplete_auto_completeopt = 0
+let g:asyncomplete_auto_completeopt = 1
 
 set completeopt=menuone,noinsert,noselect,preview"
 
 
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
-
 
 
 

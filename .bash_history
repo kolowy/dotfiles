@@ -1,500 +1,500 @@
-xautolock --help
-xautolock -time 1 -locker i3blur.sh
-xautolock -detectsleep 
-  -time 1 -locker "i3blur.sh"   -notify 30   -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
-  -time 1 -locker "i3blur.sh"   -notify 30   -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
-xautolock -detectsleep -time 1 -locker "i3blur.sh"   -notify 30   -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
-xautolock -detectsleep -time 1 -locker "i3blur.sh"   -notify 30   -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'" -corners +00-
-vim .vimrc 
-vim .i3/config 
-vim .i3/config 
-vim .i3/config 
-xrandr --output HDMI2 --auto --above eDP1 ; notify-send 'screen connected'
-rofi -v
-xrandr --output HDMI2 --auto --above eDP1 ; notify-send 'screen connected' ;
-vim .i3/config 
-vim .i3/config 
-vim .i3/config 
-vim .i3/config 
-vim .i3/config 
-cd .vim
-cd bundle/
+tree
+tree /root
+tree /
+curl asii.live/rick
+curl ascii.live/rick
+i3-msg workspace prev
+i3-msg workspace prev
+vim .config/libinput-gestures.conf 
+sudo pacman -S wmctrl xdotool
+libinput-gestures-setup autostart start
+libinput-gestures-setup stop
 ls
-rm -r YouCompleteMe/
+vim .config/libinput-gestures.conf 
+cat .config/libinput-gestures.conf 
+libinput --help
+libinput debug-gui
+python3
+e = {}
+python3
 ls
-cd .vim/bundle/YouCompleteMe/
+cd Documents/S2/Algo/
 ls
-rm -r
-rm -r *
-rm -f -r *
-sudo rm -f -r *
+vim avl 
+vim annal
+vim annal.py
+python3
+su
+hsu
+shu
+dsd
+jksod
+cd Documents/S2/prog/paul.dufour-2026-abacus/
+git lg
+sudo pacman -S inskscape
+sudo pacman -S inkscape
+inkscape 
+cd Documents/S2/prog/paul.dufour-2026-abacus/
+cd Abacus/bin/Debug/net5.0/
+./Abacus "(1 + 2"
+echo $?
+./Abacus
+echo $?
+cd Documents/dev/epimap/
 ls
-cd..
-rm -r You
+$ python3 -m http.server
+python3 -m http.server
+cd Documents/dev/epimap/
+ls
+ls maps/
+mv maps/map-test.svg maps/map-vj-test.svg
+mv maps/map-vj-test.svg maps/map-test.svg
+vim index.html 
+ls
+vim .config/i3/config 
+vim .config/i3/config 
+cd Documents/S2/te/
+ls
+vim trucNul
+vim trucNul
+vim history
+cat history 
+vim history 
+cat history 
+ls
+cd Documents/dev/ti83pce/
+ls
+vim ti83pce.inc 
+curl google.com
+curl --help
+ls
+cd Documents/S2/te/
+ls
+cat trucNul 
+ls
+cd Documents/dev/ti83pce/
+ls
+cd testASM/
+ls
+ls
 cd ..
-rm -r YouCompleteMe/
 ls
-cd .vim/bundle/YouCompleteMe/ ; ./install.py --all
-apt install mono-complete golang nodejs default-jdk npm
-vim .i3/config 
-./install.py --all
-./install.py --all --verbose
-pacman -Syu go
-sudo pacman -Syu go
-go -v
-go --v
-go --v
-go --version
-./install.py --all --verbose
-./install.py --all
-java -v
-java --v
-java --version
-java help
-java --help
-java
-java -version
-cd
-vim Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-vim Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-vim .vimrc 
-vim Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-vim Documents/Epita/tpACDC/C#/tp9-paul.dufour/Warmup/Program.cs 
-cd Documents/Epita/tpACDC/C#/tp9-paul.dufour/Warmup/
-make
-git kk
-git restore Program.cs 
-make
-cd
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-cd .vim/bundle/YouCompleteMe/
 ls
-python3 install.py -all
-python3 install.py --all
+cd  ls
 ls
-pacman -Syu
+unzip asm-docs-master.zip 
+ls
+rm asm-docs-master.zip 
+ls
+cd asm-docs-master/
+ls
+cd programs/
+ls
+cp include/ ../../testASM/
+cp -r include/ ../../testASM/
+cd ../../testASM/
+ls
+cd ../asm-docs-master/programs/
+ls
+cp main.asm ../../testASM/
+ls
+cd ../../testASM/
+ls
+ls
+vim main.asm 
+vim makefile 
+./spasm main.asm DEMO.8xp
+ls
+vim makefile 
+./spasm -E main.asm DEMO.8xp
+vim main.asm 
+cd Documents/dev/ti83pce/
+ls
+cd testASM/
+ls
+vim test.ez80 
+cd ../asm-docs-master/
+ls
+cd programs/
+ls
+chmod +x fasmg-linux 
+ls
+./fasmg-linux main.asm DEMO.8xp
+./fasmg-linux main.asm TEST.8xp
+./fasmg-linux main.asm TEST.8xp
+ls
+vim ../../testASM/exemple.ez80 
 sudo pacman -Syu
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos
-vim elec
-vim elec 
-cd .config/
+flameshot 
+flameshot gui
+sudo pacman -Rsn xfce-screenshooter
+sudo pacman -Rsn xfce4-screenshooter
+sudo pacman flameshot
+sudo pacman -S flameshot
+vim .config/i3/co
+vim .config/i3/config 
 ls
-cd bu
-cd bin/
+cd Documents/dev/ti83pce/
 ls
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-vim i3blur.sh 
+cd asm-docs-master/
 ls
-convert lock.png -resize 50% lock.png 
+cd programs/
+./fasmg-linux main.asm TEST.8xp
+vim main.asm 
+./fasmg-linux main.asm TEST.8xp
+vim main.asm 
+./fasmg-linux main.asm TEST.8xp
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+./fasmg-linux main.asm DEMO.8xp
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+./fasmg-linux main.asm DEMO.8xp
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+./fasmg-linux main.asm DEMO.8xp
+./fasmg-linux main.asm DEMO.8xp
+vim main.asm 
+while :; do echo -ne "\e[$(($RANDOM%6+41))m" ; done &
+curl assci.art
+curl parrot.live
+lazadazd
+d
+qs
+dqs
+d
+sqd
+qs
+d
+sqd
+qs
+d
+sq
+dsq
+d
+sq
+d
+sqd
+qsd
+sq
+d
+qs
+dsq
+d
+qs
+d
+sqd
+qs
+d
+sqd
+sq
+d
+qsd
+qs
+d
+qs
+d
+qs
+dsq
+d
+sqd
+sqd
+cd Downloads/
 ls
-i3blur.sh 
-convert lock.png -resize 50% lock.png 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-i3blur.sh 
-i3blur.sh 
-convert lock.png -resize 150% lock.png 
-i3blur.sh 
-convert lock.png -resize 150% lock.png 
-i3blur.sh 
-i3blur.sh 
-convert lock.png -resize 50% lock.png 
-i3blur.sh 
-convert lock.png -resize 20% lock.png 
-i3blur.sh 
-convert lock.png -resize 250% lock.png 
-i3blur.sh 
-i3blur.sh 
-convert lock.png -resize 50% lock.png 
-convert lock.png -resize 90% lock.png 
-i3blur.sh 
-convert lock.png -resize 90% lock.png 
-convert lock.png -resize 90% lock.png 
-i3blur.sh 
-convert lock.png -resize 90% lock.png 
-i3blur.sh 
-convert lock.png -resize 90% lock.png 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-vim i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-vim i3blur.sh 
-i3blur.sh 
-convert lock.png -resize 110% lock.png 
-i3blur.sh 
-convert lock.png -resize 110% lock.png 
-i3blur.sh 
-convert lock.png -resize 110% lock.png 
-i3blur.sh 
-i3blur.sh 
-convert lock.png -resize 40% lock.png 
-i3blur.sh 
-convert lock.png -resize 90% lock.png 
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-i3blur.sh 
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-vim i3blur.sh
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-i3blur.sh 
-vim i3blur.sh
-vim archi
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumos
-lumos 
-lumos 
-lumos 
-lumus 
-lumus 
-lumus 
-lumus 
-lumuos
-lumos
-lumus 
-lumos
-cd Documents/Epita/tpACDC/C#/
-vim tp1-paul.dufour/Case1-HangedMan/Case1-HangedMan/Basics/Loops.cs
-vim tp2-paul.dufour/Exercices/Loop/Loop.cs
-vim tp3-paul.dufour/Arrays101/Basics/Basics.csproj 
-vim tp3-paul.dufour/Arrays101/Basics/Arrays.cs 
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/Player.cs 
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/Cell.cs 
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/Company.cs 
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/BeginCell.cs 
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/Pro
-vim tp4-paul.dufour/Monopoly/Monopoly/Monopoly/Property.cs 
-vim tp6-paul.dufour/
-vim tp5-paul.dufour/
-Documents/Epita/tpACDC/C#/
-cd Documents/Epita/tpACDC/C#/
-vim tp0-paul.dufour/
-cd Documents/Epita/tpACDC/C#/
-vim tp8-paul.dufour/
-vim tp9-paul.dufour/
-cd Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-cat Warmup/Warmup.cs 
-cat Whodunit/Suspects.cs 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumos 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-sudo snap install --classic code
-vscode
-visualinfo 
+cp skeleton_v1.0_2.zip ../Documents/S2/prog/
+ls
+cd ../Documents/S2/prog/tp15-paul.dufour/
+ls
+chmod 755 skeleton
+ls
+ls -la
+ls skeleton/SherlockType/
+chmod -R 755 skeleton
+ls
+ls skeleton
+ls
+ls
+cd Downloads/
+ls
+xsel -b < message.txt 
+ls
+ls
+cd
+vim .config/i3/config 
+cd Documents/S2/prog/
+ls
+git clone paul.dufour@git.cri.epita.fr:p/2026-s2-csharp/tp15-paul.dufour
+ls
+mv skeleton_v1.0_2.zip tp15-paul.dufour/.git/
+cd tp15-paul.dufour/.git/
+mv skeleton_v1.0_2.zip ../
+ls
+ls
+cd ..
+ls
+unzip skeleton_v1.0_2.zip 
+ls
+cd skeleton
+ls
+cd SherlockType/
+ls
+cd SherlockType
+ls
+cd ../..
+cd SherlockType/SherlockType
+l
+ls
+ls -la
+cd ../..
+ls
+cd ..
+ls
+cd ..
+ls
+cd tp15-paul.dufour/
+ls
+cd ../tp14-paul.dufour/
+ls
+ls -la
+ls
+cd Documents/S2/prog/tp15-paul.dufour/
+ls
+rm *
+rm -r *
+ls
+ls _l
+ls -la
+ms
+ls
+rm -r skeleton/
+ls
+unzip skeleton_v1.1.zip 
+ls
+cd skeleton_v1.1.zip 
+ls
+rm skeleton_v1.1.zip 
+ls -la
+cd Documents/S2/prog/tp15-paul.dufour/
+ls
+git kk
+git add SherlockType/
+git add .
+git kk
+git commit -m "ADD => Max"
+git push
+git kk
+cd Documents/S2/Algo/devoir/
+ls
+cd h
+cd huffman/
+ls
+vim paul.dufour_huffman.py 
+ls
+vim paul.dufour_huffman.py 
+python3 -i paul.dufour_huffman.py 
+vim paul.dufour_huffman.py 
+python3 -i paul.dufour_huffman.py 
+vim paul.dufour_huffman.py 
+python3 -i paul.dufour_huffman.py 
+git kk
+git add ../.gitignore 
+git kk
+git kk
+git revert SherlockType/Program.cs 
+git restore SherlockType/Program.cs 
+git kk
+git add .
+git commit -m "ADD General tree end"
+git push
+git kk
+vim .config/i3/config 
+ls
+vim .config/i3/config 
+snap
+snapctl 
+snap --help
+snap --list
+snap list
+pacman --l
+pacman --help
+pacman --help -F
+pacman --help -Fl
+pacman -Fl
+pacman -F --list
+pacman F --list
+pacman Flist
+pacman Fl
+pacman -Fl
+pacman --help -Fl
+pacman --help
+pacman --help-S
+pacman --help -S
+ls
+cd Documents/S2/prog/tp15-paul.dufour/
+ls
+rm Conseil_de_surveillance.*
+vim ~/.vimrc 
+cat ~/.vimrc 
+ls
+cd
+cd Documents/fun/gally_launcher 
+cd Documents/fun/
+ls
+vim rpc
+vim rpc/index.js
+mkdir rpc
+cd rpc/
+vim index.js
+ls
+node index.js 
+npm init
+npm i discord-rpc
+node index.js 
+npm run
+ls
+rm -r *
+ls
+git clone git@github.com:discordjs/RPC.git
+ls
+cd RPC/
+ls
+cd example/
+ls
+npm start
+ls
+node main.js 
+vim index.html 
+ls
+vim main.js 
+npm i
+ls
+node main.js 
+cd ..
+ls
+node example/main.js 
+vim node_modules/
+node
+ls
+node webpack.config.js 
+ls
+vim package.json 
+cd ..
+ls
+rm -r *
+ls
+rm -rf *
+ls
+ls
+vim index.js
+ls
+node index.js 
+npm i
+npm init
+ls
+npm i discord-rpc
+npm run
+node index.js 
+ls
+vim index.js
+node index.js 
+ls
+cd ../..
+ls
+cd fun/
+ls
+rm -r rpc/
+ls
+./gally_launcher -v 1.18.1 -u kolowy
+./gally_launcher -v 1.18.1 -u kolowy
 ls
 cd Documents/
 ls
-cd Epita/
+pacman -S gifsicle
+sudo pacman -S gifsicle
+gifview --animate -new--window root ~/Documents/important/backgound.gif 
+sudo -Rsn gifview
+sudo pacman -Rsn gifview
+sudo pacman -Rsn sicle
+sudo pacman -Rsn gitsicle
+sudo pacman -Rsn gifsicle
 ls
-cd S
-cd S2/
-ls
-npm i
-npm start
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-git kk
-git pull
-git kk
-git kk
-git pull
-git lg
-npm start
-npm run
-npm run deploy
-npm i react-code-blocks
-npm start
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-lumos
-npm start
-npm start
-git kk
-git add .
-git commit -m "[ADD] footer code"
-git p
-npm run deploy
-npm run deploy
-npm run build
-lumus 
-lumus 
-lumus 
-lumus 
-lumus 
-cd Documents/Epita/
-ls
-mkdir S3
-ls
-cd S3/
-ls
-mkdir test ASM
-ls
-rm -r test/
-rm -r ASM/
-ls
-mkdir ASMtest
-cd As
-cd ASMtest/
-jobs 
-cd archi 
-ls
-vim archi 
-jobs 
-vim archi 
-jobs 
-vim archi 
-ls
-jobs 
-rm archi 
-ls
-jobs 
-jobs 
-ls
-vim elec 
-vim .vimrc 
-vim .vimrc 
-vim .vimrc 
-vim elec 
-vim elec 
-ls
-jobs 
-vim elec 
-vim elec 
-vim elec 
-cd
-vim elec 
-cd .cache/
-ls
-cd vim/
-ls
-cd backup/
-ls
-cd ..
-cd swap/
-ls
-rm *
-ls
-cd
-vim elec 
-cd Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-vim
-jobs 
-vim Warmup/
-ls
-cd Warmup/
-ls
-vim Program.cs 
-ls
-jobs 
-jobs help
-jobs --help
-cd Documents/Epita/tpACDC/C#/tp9-paul.dufour/
-cd Whodunit/
-vim
-cd Documents/Epita/S3/ASMtest/
-gcc -g Etape_01.asm -o hello.out
-vimtutor 
-cd Documents/Epita/S3/
-ls
-cd ASMtest/
-vim
-ls
-cd dotfiles/
-ls
-cd root/
+rm Documents/important/backgound.gif 
+sudo -Syu
+sudo pacman -Syu
+sudo pacman -Syu
 ls
 cd ..
 ls
-cd program/
+cd ..
 ls
-cd batterystatus/
+zip /home/
+tar -cvf home.zip /home/
 ls
-vim batterystatus.c 
-git pull
-lumus 
-lumus 
-lumus 
-cd .vim/syntax/
-cd .vim
-mkdir syntax
+sudo tar -cvf home.zip /home/
 ls
-cd syntax/
-vim asmM68k.vim
-cd Documents/Epita/tpACDC/C#/
+ls -la
+vim cd
+cd
+ls
+vim .config/i3/config 
+ls
+cd ../..
+ls
+rm home.zip 
+ls
+rm home.zip 
+sudo rm home.zip 
+ls
+ls
+cd .config/discord/
+ls
+vim Session\ Storage/
+vim Session\ Storage/
+:q
+steam
+vim /etc/pacman.conf 
+sudo pacman -Rsn steam
+sudoedit
+sudoedit /etc/pacman.conf
+sudo pacman -Syu
+ls
+cd Documents/S2/prog/tp15-paul.dufour/
+ls
+cd SherlockType/
+ls
+git kk
+ls
+cd Documents/S2/prog/tp15-paul.dufour/
+ls
+cd SherlockType/SherlockType/bin/Debug/net5.0/
+vim chad
+rm chad 
+vim chad.json 
+ls
+cd .config/i3/config 
+cd .config/i3blocks/
+ls
+vim config
+calc "695 / 2"
+ech "695 / 2" | calc 
+echo "695 / 2" | calc 
+vim .xinitrc 
+ls
+mv B2B_-_Algebre_lineaire_20_05 Documents/S2/maths/
+vim test 
+rm test 
+ls
+ms 20220406_171008.jpg Documents/important/image/
+mv 20220406_171008.jpg Documents/important/image/
+ls
+cd hihi/
+ls
+ls
+ls dot/
+ls -la dot/
+vim dot/.xinitrc 
+vim dot/.xinitrc 

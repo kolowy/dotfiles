@@ -38,7 +38,7 @@ exec --no-startup-id dunst
 set $mod Mod4
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status pkill -SIGRTMIN+1 i3blocks
+set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status && notify-send 'volume + 10%'
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status && notify-send 'volume - 10%'
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status && notify-send 'volume muted'
@@ -91,9 +91,6 @@ bindsym $mod+$down focus down
 bindsym $mod+$up focus up
 bindsym $mod+$right focus right
 
-## TROLOLOL
-bindsym $mod+Shift+t exec while :; do echo -ne "\e[$(($RANDOM%6+41))m" ; done &
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -121,12 +118,8 @@ bindsym Shift+F8 exec arandr
 bindsym F9 exec ~/.config/bin/i3blur.sh
 
 ## Screenshooter F11
-bindsym F11 exec flameshot gui
-#xfce4-screenshooter
+bindsym F11 exec xfce4-screenshooter
 
-
-# active the gesture
-exec --no-startup-id libinput-gestures-setup start
 
 
 # split in horizontal orientation
@@ -192,16 +185,16 @@ bindsym $mod+0 workspace number $ws10 ; $feh ~/Documents/important/backgrounds10
 
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+1 move container to workspace number $ws1
+bindsym $mod+2 move container to workspace number $ws2
+bindsym $mod+3 move container to workspace number $ws3
+bindsym $mod+4 move container to workspace number $ws4
+bindsym $mod+5 move container to workspace number $ws5
+bindsym $mod+6 move container to workspace number $ws6
+bindsym $mod+7 move container to workspace number $ws7
+bindsym $mod+8 move container to workspace number $ws8
+bindsym $mod+9 move container to workspace number $ws9
+bindsym $mod+0 move container to workspace number $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
