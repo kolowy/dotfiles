@@ -48,35 +48,18 @@ interval=60
 format=json
 markup=pango
 
+[sepa]
+full_text=  
 
 # Generic media player support
 #
 # This displays "ARTIST - SONG" if a music is playing.
 # Supported players are: spotify, vlc, audacious, xmms2, mplayer, and others.
 # Set to %any to automatically pick (Requires playerctl >=2.1.1)
-[skipback]
-align=center
-full_text=     
-command=playerctl previous
-
-[play]
-align=center
-full_text=
-command=playerctl play-pause
-
-[skipfor]
-align=center
-full_text=  
-command=playerctl next
-
-
-[mediaplayer]
+[song]
 command=./mediaplayer/mediaplayer
-markup=pango
-#instance=vlc,%any,spotify
-interval=5
-# signal=10
-align=center
+interval=10
+signal=10
 
 [sepa]
 full_text=  
@@ -154,7 +137,7 @@ HEIGHT=180
 WIDTH=220
 
 [sepa]
-full_text=  
+full_text= 
 
 
 [bluetooth]
@@ -164,11 +147,11 @@ interval=10
 
 
 [lock]
-command=./lock/lock.sh
-label=
+command=./TP/tp.sh
+label= 
 interval=1
 
 [shutdown]
-command=./TP/tp.sh
-label=
+command=./lock/lock.sh
+label=   
 interval=1
