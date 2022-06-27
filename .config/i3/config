@@ -67,9 +67,10 @@ set $right semicolon
 
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier Mod4
+exec --no-startup-id feh --bg-center ~/.config/i3/background/backgrounds6.jpg
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec alacritty
 
 # start brave
 bindsym $mod+Shift+Return exec brave
@@ -177,20 +178,18 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-# background
-set $feh exec --no-startup-id feh --bg-fill --bg-scale
 
 # switch to workspace
-bindsym $mod+1 workspace number $ws1 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+2 workspace number $ws2 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+3 workspace number $ws3 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+4 workspace number $ws4 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+5 workspace number $ws5 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+6 workspace number $ws6 ; $feh ~/Documents/important/backgrounds.jpg
-bindsym $mod+7 workspace number $ws7 ; $feh ~/Documents/important/backgrounds7.jpg
-bindsym $mod+8 workspace number $ws8 ; $feh ~/Documents/important/backgrounds8.jpg
-bindsym $mod+9 workspace number $ws9 ; $feh ~/Documents/important/backgrounds9.jpg
-bindsym $mod+0 workspace number $ws10 ; $feh ~/Documents/important/backgrounds10.jpg
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
 
 
 # move focused container to workspace
