@@ -1,8 +1,0 @@
-﻿id,en,tw,jp,kr
-stat-tasks,Tasks,工作,仕事,
-stat-moves,Moves,移動次數,移動数,
-stat-times,Time(ms),計時(毫秒),タイミング（ミリ秒）,
-key-action,Action,動作,アクション,
-key-default,Default,系統預設,システムのデフォルト,
-chart-title,Response Time,反應速度,反応速度,
-tooltip-importance,Importance,重要性,重要性,

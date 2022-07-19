@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="24">
-    <!-- <path d="M 0 24 h800" stroke="rgb(249,169,0)" stroke-width="4" id="line1" stroke-dasharray=" 10 17.8 9.8" /> -->
-      <circle cx="10" cy="10" r="10" onclick="console.log('here');" />
-</svg>
