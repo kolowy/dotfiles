@@ -18,6 +18,12 @@ alias shutdown='poweroff'
 shopt -s autocd
 
 
+# opam
+eval $(opam env)
+
+# z
+. ~/.config/bin/z.sh
+
 PROMPT_COMMAND=' '
 
 export EDITOR=vim
@@ -41,6 +47,13 @@ export COLOR_LIGHT_CYAN='\e[38;5;123m'
 export COLOR_LIGHT_GRAY='\e[38;5;248m'
 export COLOR_WHITE='\e[38;5;255m'
 
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 UC=$COLOR_WHITE                      # user's color
 [ $UID -eq "0" ] && UC=$COLOR_RED    # root's color
