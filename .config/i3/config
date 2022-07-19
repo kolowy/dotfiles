@@ -68,6 +68,7 @@ set $right semicolon
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier Mod4
 exec --no-startup-id feh --bg-center ~/.config/i3/background/backgrounds6.jpg
+# exec --no-startup-id ~/.config/eww/bar/launch_bar
 
 # start a terminal
 bindsym $mod+Return exec alacritty
@@ -271,7 +272,7 @@ bar {
     status_command i3blocks
     position top
     font pango:Consolas 9
-    tray_output none
+# tray_output none
     separator_symbol "  "
 
     colors 

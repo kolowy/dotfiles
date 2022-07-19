@@ -22,6 +22,9 @@ set belloff=all
 set hlsearch " search highlighting
 set lazyredraw " for perfu
 
+" fix alacritty mouse 
+set ttymouse=sgr
+
 set linebreak " avoid wrapping a line in the middle of a word
 syntax enable " enable syntax highlighting
 set cursorline "highlight the line under scheme
