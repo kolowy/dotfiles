@@ -8,17 +8,30 @@ I accept tips :P
 
 Packages :
 wm              :   i3
-menu            :   dmenu
-shell           :   urxvt
-screen shooter  :   xfce-screenshooter
+menu            :   dmenu + rofi
+shell           :   alacritty
+bash            :   zpresto
+screen shooter  :   flameshot
+bar             :   polybar
+input           :   libinput-gestures
+cd              :   [z](https://github.com/rupa/z)
 
 
+# customs files : /bin
 
+random-lyrics/      :   display random lyrics when `startx`
+alert-battery       :   notify sent when battry is low
+i3blur              :   i3lock
+keyboard            :   custom setxkbmap
+z.sh                :   [z](https://github.com/rupa/z)
+brightness          :   fix brightness pb
+rofile              :   hummmm ... a test ?
 
 
 ## i3 no font errors
 
-pacman firefox to have font
+No font was on the PC...
+`pacman -S firefox` to have font
 
 
 
