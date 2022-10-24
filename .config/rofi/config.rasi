@@ -6,4 +6,4 @@ configuration {
 }
 
 
-@theme "/usr/share/rofi/themes/arthur.rasi"
+@theme "~/.config/rofi/arthur.rasi"
