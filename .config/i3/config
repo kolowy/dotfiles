@@ -20,7 +20,7 @@ font pango:Iosevka Nerd Font Mono 8
 # S
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
-
+for_window [class="^.*"] border none
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -30,6 +30,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # start dunst (usful for notify)
 exec --no-startup-id dunst
+
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -56,6 +57,9 @@ bindsym Shift+XF86MonBrightnessUp exec  --no-startup-id xbacklight -inc 5 && $re
 # decrease screen brightness
 bindsym XF86MonBrightnessDown exec  --no-startup-id xbacklight -dec 2 && $refresh_i3status && notify-send 'brightness - 2'
 bindsym Shift+XF86MonBrightnessDown exec  --no-startup-id xbacklight -dec 5 && $refresh_i3status && notify-send 'brightness - 5'
+
+# keyboard layout
+bindsym $mod+space exec ~/.config/bin/keyboard.sh
 
 
 # use these keys for focus, movement, and resize directions when reaching for
@@ -151,7 +155,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+alt+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -264,30 +268,29 @@ set_from_resource $cyan2 color14 #afd7ff
 set_from_resource $white1 color7 #a3a3a3
 set_from_resource $white2 color15 #ffffff
 
-# for (calendar)
-for_window [class="Yad"] floating enable
+exec_always --no-startup-id ~/.i3/polybar.sh &
 
 # finds out, if available)
-bar {
-    status_command i3blocks
-    position top
-    font pango:Consolas 9
+#bar {
+#    status_command i3blocks
+#    position top
+#    font pango:Consolas 9
 # tray_output none
-    separator_symbol "  "
+#    separator_symbol "  "
 
-    colors 
-    {
-        background $background
-        statusline $white1
-        separator $green2
+#    colors 
+#    {
+#       background $background
+#        statusline $white1
+#        separator $green2
 
-        focused_workspace $black2 $green2 $white1
-        active_workspace $background $blacki1 $background
-        inactive_workspace $background $black1 $forground
-        urgent_workspace $red1 $red1 $white2
-        binding_mode $background $red2 $white2
-    }
-}
+#        focused_workspace $black2 $green2 $white1
+#        active_workspace $background $blacki1 $background
+#        inactive_workspace $background $black1 $forground
+#        urgent_workspace $red1 $red1 $white2
+#        binding_mode $background $red2 $white2
+#    }
+#}
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
