@@ -28,6 +28,11 @@ I work to make good configuration files
 - brightness          :   fix brightness pb
 - rofile              :   hummmm ... a test ?
 
+## Vim
+Plugin                  :   [Vim-Plug](https://github.com/junegunn/vim-plug)
+To install              :   ctags
+Plugin install          :   PlugInstall
+Templating              :   .vim/template
 
 # Error
 ### i3 no font errors
