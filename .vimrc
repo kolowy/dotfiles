@@ -19,11 +19,11 @@ filetype indent on
 " Encoding options
 set encoding=utf-8
 
-" Show current position
-set ruler
-
 " Show line numbers
-set number relativenumber
+set number
+set wildmenu " Better tab completion while typing commands
+set scrolloff=10 " Always keep 10 line visible above or under the cursor
+
 " https://jeffkreeftmeijer.com/vim-number/
 augroup numbertoggle
     autocmd!
@@ -31,19 +31,7 @@ augroup numbertoggle
     autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
-
-" No terminal bells on error
-set noerrorbells
-
-" Fix <esc>+O timeout
-set timeout timeoutlen=5000 ttimeoutlen=100
-
-" Use tab expansion in settings/commands
-set wildmenu
-set wildmode=full
-
 " Display extra whitespaces in blue
-set list
 set list listchars=tab:»\ ,trail:·,eol:$ " Indicators for invisible characters
 
 
@@ -52,7 +40,6 @@ set list listchars=tab:»\ ,trail:·,eol:$ " Indicators for invisible characters
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 syntax on
-set background=dark
 
 " Enable 256 colors in Vim
 set t_Co=256
@@ -63,29 +50,17 @@ set t_Co=256
 
 " 80 cols
 set cc=80
-set colorcolumn=80
 
-" File type specific options overwrite these parameters
-" (see .vim/after/ftplugin)
-
-" Use 8 spaces
+" Use 4 spaces
 set shiftwidth=4
 set tabstop=4
-set softtabstop=4
 set expandtab
 set smarttab
 
 " Indentation
 set autoindent
-set shiftround
 set smartindent
 set cindent
-
-" http://vim.wikia.com/wiki/Restoring_indent_after_typing_hash
-" set smartindent
-set cindent
-set cinkeys-=0#
-set indentkeys-=0#
 
 " Smart backspace
 set backspace=indent,eol,start
@@ -106,6 +81,7 @@ nmap <silent> <C-N> :silent noh<cr>
 set showmatch
 set ignorecase
 set smartcase
+
 " ignorecase does not play nicely with completion
 set infercase
 set incsearch
@@ -130,9 +106,6 @@ syntax enable " enable syntax highlighting
 " File
 set autoread " Re-read file when it has been changed outside of vim
 set autowrite " Automatically write file on some commands (like :make, :next...)
-
-" Miscellaneaous
-set list " Enable listchars
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Templating
@@ -159,18 +132,11 @@ endif
 " => Custom mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let mapleader = "\<Space>"
-let g:mapleader = "\<Space>"
-
 " Easier navigation between splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Toggle paste
-nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
@@ -201,18 +167,20 @@ autocmd VimResized * wincmd =
 call plug#begin('~/.vim/plugged')
 
 Plug 'ludovicchabant/vim-gutentags'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 
 " Theme
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Theme
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 let g:gruvbox_bold = 1
 let g:gruvbox_transpartent_bg = 1
 let g:gruvbox_underline = 1
@@ -221,7 +189,6 @@ set background=dark
 colorscheme gruvbox
 
 
-let g:airline_theme='gruvbox'
 
 " Gutten tag
 set statusline+=%{gutentags#statusline()}
@@ -236,6 +203,7 @@ set splitbelow
 set splitright
 
 noremap <C-t> :Sexplore<cr>
+
 " config for :term
 set termwinsize=10x
 noremap <C-a> :terminal<cr>
@@ -247,3 +215,4 @@ noremap + ddkP
 noremap _ ddp
 noremap - yyp
 
+set clipboard=unnamedplus
