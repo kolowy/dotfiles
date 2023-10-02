@@ -11,11 +11,6 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" Enable mouse and scrolling
-set mouse=a
-
-" fix alacritty mouse 
-set ttymouse=sgr
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -36,20 +31,6 @@ augroup numbertoggle
     autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
-" Show current editing mode
-set showmode
-
-" Show matching brackets when text indicator is over them
-set showmatch
-
-" Show the status line
-set laststatus=2
-
-" Always display the tabline, even if there is only one tab
-set showtabline=2
-
-" Colored column
-set colorcolumn=81
 
 " No terminal bells on error
 set noerrorbells
@@ -63,7 +44,7 @@ set wildmode=full
 
 " Display extra whitespaces in blue
 set list
-set listchars=tab:»·,trail:·
+set list listchars=tab:»\ ,trail:·,eol:$ " Indicators for invisible characters
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -82,13 +63,14 @@ set t_Co=256
 
 " 80 cols
 set cc=80
+set colorcolumn=80
 
 " File type specific options overwrite these parameters
 " (see .vim/after/ftplugin)
 
 " Use 8 spaces
-set shiftwidth=8
-set tabstop=8
+set shiftwidth=4
+set tabstop=4
 set softtabstop=4
 set expandtab
 set smarttab
@@ -107,6 +89,9 @@ set indentkeys-=0#
 
 " Smart backspace
 set backspace=indent,eol,start
+
+" Highlight the line under scheme
+set cursorline
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Search
@@ -149,10 +134,6 @@ set autowrite " Automatically write file on some commands (like :make, :next...)
 " Miscellaneaous
 set list " Enable listchars
 
-" Persistent undo
-set undofile
-set undodir=~/.vimtmp/undo
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Templating
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -170,6 +151,7 @@ if has("autocmd")
 		autocmd BufNewFile Program.cs 0r ~/.vim/templates/template_Program.cs
 		autocmd BufNewFile *.cs 0r ~/.vim/templates/template.cs
 		autocmd BufNewFile *.tex 0r ~/.vim/templates/template.tex
+		autocmd BufNewFile Makefile 0r ~/.vim/templates/Makefile
 	augroup END
 endif
 
@@ -190,22 +172,18 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 
-" FZF vim integration
-set rtp+=~/.fzf
-map <c-p> :FZF<CR>
-
-" Improve jumping between buffers
-nnoremap gb :ls<CR>:b<Space>
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+autocmd FileType make setlocal noexpandtab softtabstop=0
 
 " Return to last edit position when opening files
 autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
     \ exe "normal! g`\"" |
     \ endif
+
 " Remember info about open buffers on close
 set viminfo^=%
 
@@ -216,30 +194,25 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd VimResized * wincmd =
 
 
-""""""¨ """"""" TODO
-noremap <C-i> :syntax on<cr>
-set clipboard=unnamedplus
-
-set cursorline "highlight the line under scheme
-
-set notermguicolors
-set list listchars=tab:»\ ,trail:·,eol:$ " Indicators for invisible characters
-
-" vundle config
-" set nocompatible
-" filetype off
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugin
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'gmarik/Vundle.vim'
 Plug 'ludovicchabant/vim-gutentags'
-Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 
+" Theme
+Plug 'morhetz/gruvbox'
+
 call plug#end()
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Theme
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gruvbox_bold = 1
 let g:gruvbox_transpartent_bg = 1
 let g:gruvbox_underline = 1
@@ -256,18 +229,21 @@ let g:gutentags_project_root = ['Makefile']
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""                     Short curts                       """""""""""""
+" => Shortcuts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" crtl+t -> Tree
+set splitbelow
+set splitright
+
 noremap <C-t> :Sexplore<cr>
+" config for :term
+set termwinsize=10x
 noremap <C-a> :terminal<cr>
 
-" exit vim if only tree remaining windows
-autocmd FileType make setlocal noexpandtab softtabstop=0
-
+noremap <C-i> :syntax on<cr>
 
 " change lines
 noremap + ddkP
-noremap - yyp
 noremap _ ddp
+noremap - yyp
+
