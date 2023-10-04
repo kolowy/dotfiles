@@ -1,5 +1,5 @@
 /*
- * Author : Paul Dufour
+ * Author : Paul Dufour 
  */
 #include <iostream>
 #include <string>
@@ -7,10 +7,10 @@
 
 using namespace std;
 
-class Xyz 
-{
-	protected: // Member variables
+class Xyz {
+	protected: //Member variables
+		
 
-	public: // Methods
-
+	public: //Methods
+		
 };

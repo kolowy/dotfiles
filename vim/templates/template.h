@@ -1,10 +1,7 @@
-#ifndef X_H
-
-#define X_H
+#ifndef FILENAME_H
+#define FILENAME_H
 
 #include <stdio.h>
 #include <stdlib.h>
 
-
-#endif
-
+#endif /* ! FILENAME_H */

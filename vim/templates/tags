@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror -Wvla -std=c99 -pendatic$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CurseCase	template_Program.cs	/^namespace CurseCase$/;"	n
+DEP	Makefile	/^DEP = ${SRC:.c=.d}$/;"	m
+FILENAME_H	template.h	2;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -fsanitize=address$/;"	m
+LDLIBS	Makefile	/^LDLIBS =$/;"	m
+Main	template_Program.cs	/^        public static void Main(string[] args)$/;"	m	class:CurseCase.Program
+OBJ	Makefile	/^OBJ = ${SRC:.c=.o}$/;"	m
+Program	template_Program.cs	/^    class Program$/;"	c	namespace:CurseCase
+SRC	Makefile	/^SRC = $/;"	m
+X_H	template.hpp	2;"	d
+Xyz	template_class.hpp	/^class Xyz {$/;"	c
+main	template.c	/^int main(int argc, char *argv[])$/;"	f
+main	template.cpp	/^int main()$/;"	f

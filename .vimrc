@@ -111,10 +111,15 @@ set autowrite " Automatically write file on some commands (like :make, :next...)
 " => Templating
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+function! NewHeaderFile()
+    silent! 0r $HOME/.vim/templates/template.h
+    %s/FILENAME/\=substitute(expand("%:t:r"),'.*','\U&','')/g
+endfunction
+
 if has("autocmd")
 	augroup templates
 		autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
-		autocmd BufNewFile *.h 0r ~/.vim/templates/template.h
+		autocmd BufNewFile *.h call NewHeaderFile()
 		autocmd BufNewFile *.cpp 0r ~/.vim/templates/template.cpp
 		autocmd BufNewFile *.html 0r ~/.vim/templates/template.html
 		autocmd BufNewFile *.php 0r ~/.vim/templates/template.php
@@ -211,6 +216,7 @@ noremap <C-a> :terminal<cr>
 noremap <C-i> :syntax on<cr>
 
 " change lines
+
 noremap + ddkP
 noremap _ ddp
 noremap - yyp

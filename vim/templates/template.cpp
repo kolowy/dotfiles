@@ -1,5 +1,5 @@
 /* 
- * Author : Paul Dufour
+ * Author : Paul Dufour 
  */
 
 #include <iostream>
